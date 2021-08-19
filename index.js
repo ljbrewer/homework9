@@ -53,35 +53,32 @@ const promptUser = () => {
             type: "input",
             message: "What is the link to the application?",
             name: "link",
-        }
+        },
+       
     ])}
     // TODO: Create a function to write README file
   
     const createREADME = (answers) =>
     `## Description\n
-     ${answers.title}.\n Next item is?
-     ${answers.motivation}.\n
-     ${answers.why}.\n
-     ${answers.issues}.\n
-     ${answers.learn}.\n
-     ${answers.standout}.\n
-     ${answers.challenges}.\
-     ${answers.newfeatures}.\n
-     ${answers.link}.\n  
     
-    ## Intallation  \nnode
-    
-    ## Usage   \n\n
-    
-    ## Credits \n\n
-    
-    ## Features\n\n
-    
-    ## How to Contribute \n\n
-    
-    ## Tests \n\n
+    ### Title: ${answers.title}
 
-### link to page:   https://ljbrewer.github.io/xxxxxx/
+    ### Motivation: ${answers.motivation}
+
+    ### Why was this application created: ${answers.why}
+
+    ### Issues: ${answers.issues}
+
+    ### What was Learned: ${answers.learn}
+
+    ### What Standsout in this program: ${answers.standout}
+
+    ### Challenges that were faced: ${answers.challenges}
+
+    ### New Features: ${answers.newfeatures}
+        
+
+### link to page:     ${answers.link}
 
 
 ### Link to GitHub repository: https://github.com/ljbrewer/xxxx
