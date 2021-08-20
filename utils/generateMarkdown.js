@@ -10,54 +10,64 @@ function generateMarkdown(answers) {
 ## Table of Contents
 
 * [Title](#Title:)
-* [Motivation](#motivation:)
-    * [Why this application what created](#Why-was-this-application-created:)
-    * [Issues](#Issues:)
-    * [What was Learned](#What-was-Learned:)
-    * [What Stands out in this program](#What-Stands-out-in-this-program:)
-    * [Challenges that were faced](#Challenges-that-were-faced:)
-    * [New Features](#New-Features:)
-* [link to video](#link-to-video:)
-* [License: This application is covered under](#License:-This-application-is-covered-under:)
-* [Link to GitHub repository](#Link-to-GitHub-repository:)
+* [Motivation](#Motivation)
+    * [Why this application what created](#Why-was-this-application-created)
+    * [Issues](#Issues)
+    * [What was Learned](#What-was-Learned)
+    * [What Stands out in this program](#What-Stands-out-in-this-program)
+    * [Challenges that were faced](#Challenges-that-were-faced)
+    * [New Features](#New-Features)
+* [link to video](#link-to-video)
+* [License](#License)
+* [Link to GitHub repository](#Link-to-GitHub-repository)
 * [picture of page](#picture-of-page:)
 
 -----------------------------------------
 
 ## Description\n
 ------------------------------    
-### Title: ${answers.title}
+### Title
+${answers.title}
 
 --------------------------------------------------------------------------------
-### Motivation: ${answers.motivation}
+### Motivation
+${answers.motivation}
 
 --------------------------------------------------------------------------------
-### Why was this application created: ${answers.why}
+### Why was this application created
+${answers.why}
 
 --------------------------------------------------------------------------------
-### Issues: ${answers.issues}
+### Issues 
+${answers.issues}
 
 --------------------------------------------------------------------------------
-### What was Learned: ${answers.learn}
+### What was Learned 
+${answers.learn}
 
 --------------------------------------------------------------------------------
-### What Stands out in this program: ${answers.standout}
+### What Stands out in this program 
+${answers.standout}
 
 --------------------------------------------------------------------------------
-### Challenges that were faced: ${answers.challenges}
+### Challenges that were faced 
+${answers.challenges}
 
 --------------------------------------------------------------------------------
-### New Features: ${answers.newfeatures}
+### New Features 
+${answers.newfeatures}
 
 --------------------------------------------------------------------------------
-### link to video:     ${answers.link}
+### link to video     
+${answers.link}
 
 --------------------------------------------------------------------------------
-### License: This application is covered under the: ${answers.license} license.
+### License 
+This application is covered under the: ${answers.license} license.
 
 --------------------------------------------------------------------------------
 
-### Link to GitHub repository: ${answers.github}
+### Link to GitHub repository ${answers.github}
 ### picture of page:
 ![image of Readme.md creation process](${answers.picture})
 

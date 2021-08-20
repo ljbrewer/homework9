@@ -3,6 +3,8 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+
+// TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -47,7 +49,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is the link to the application?",
+        message: "What is the link to the video of the application?",
         name: "link",
     },
     {
@@ -72,16 +74,13 @@ const questions = [
         name: "picture"
     }
 ]
-// TODO: Create an array of questions for user input
+
 const writeFileAsync = util.promisify(fs.writeFile);
 
 const promptUser = () => {
     return inquirer.prompt(questions)
 }
 // TODO: Create a function to write README file
-
-
-  
 
 // TODO: Create a function to initialize app
 const init = () => {
