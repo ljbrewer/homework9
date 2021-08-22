@@ -29,11 +29,14 @@
     
     ## Tests: I tested it by running it from the command line many times.
 
-### link to page:     homework9/index.js
+### link to page:     https://drive.google.com/file/d/10qbOovkRTCmyAemfrpwDlGISiukPRI-S/view
+https://drive.google.com/file/d/1WtAgIW693TSPCh9x7U5yO4U-ac_rrqkV/view
+https://github.com/ljbrewer/homework9
+
+### Link to GitHub repository: https://github.com/ljbrewer/homework9
 
 
-### Link to GitHub repository: https://github.com/ljbrewer/xxxx
+### picture of Webpage: ./assets/images/readmecreation.png
 
 
-### picture of Webpage:
-![image of DayPlanner](./assets/images/xxxx.png)
+special license badge

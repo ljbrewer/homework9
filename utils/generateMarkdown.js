@@ -27,55 +27,78 @@ function generateMarkdown(answers) {
 ## Description\n
 ------------------------------    
 ### Title
+
 ${answers.title}
 
 --------------------------------------------------------------------------------
 ### Motivation
+
 ${answers.motivation}
 
 --------------------------------------------------------------------------------
 ### Why was this application created
+
 ${answers.why}
 
 --------------------------------------------------------------------------------
 ### Issues 
+
 ${answers.issues}
 
 --------------------------------------------------------------------------------
 ### What was Learned 
+
 ${answers.learn}
 
 --------------------------------------------------------------------------------
 ### What Stands out in this program 
+
 ${answers.standout}
 
 --------------------------------------------------------------------------------
 ### Challenges that were faced 
+
 ${answers.challenges}
 
 --------------------------------------------------------------------------------
 ### New Features 
+
 ${answers.newfeatures}
 
 --------------------------------------------------------------------------------
 ### link to video     
+
 ${answers.link}
 
 --------------------------------------------------------------------------------
 ### License 
+
 This application is covered under the: ${answers.license} license.
 
 --------------------------------------------------------------------------------
+### Link to GitHub repository 
 
-### Link to GitHub repository ${answers.github}
+${answers.github}
+
+--------------------------------------------------------------------------------
 ### picture of page:
+
 ![image of Readme.md creation process](${answers.picture})
 
-#### Features of this program: It runs from the command line and it prompts the user to answer questions about the readme file they need created.
+-------------------------------------------------------------------------------
+#### Features of this program:
 
-#### Tests: I tested it by running it from the command line many times.
+It runs from the command line and it prompts the user to answer questions about the readme file they need created.
 
-#### Credits: This program was created by Laura Brewer`;
+-------------------------------------------------------------------------------
+#### Tests: 
+
+I tested it by running it from the command line many times.
+
+--------------------------------------------------------------------------------
+#### Credits: 
+
+This program was created by Laura Brewer`;
 
 
 }
